@@ -107,6 +107,9 @@
                     <!-- <div class="col-sm-12">
                       <span class="current-stock">Stock disponible</span>
                     </div> -->
+					<div class="col-sm-12 margin-btm-10">
+                      <span style="font-size: 20px;" class="item-quantity"><b>Precio: </b><?php echo number_format($row['precio_producto'],2);?></span>
+                    </div>
                     <div class="col-sm-12 margin-btm-10">
                       <span style="font-size: 20px;" class="item-quantity"><b>Stock Disponible: </b><?php echo number_format($row['stock']);?></span>
                     </div>
